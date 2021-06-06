@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name led_indication-rescue)(type Legacy)(uri ${KIPRJMOD}/led_indication-rescue.lib)(options "")(descr ""))
+  (lib (name esd_protection_1_wire_rpi-rescue)(type Legacy)(uri D:/kicad/thomas_thermostat/fireplace__lcd__temp_sensor__esd_protection/esd_protection_1_wire_rpi_v6/esd_protection_1_wire_rpi-rescue.lib)(options "")(descr ""))
+  (lib (name esd_protection_1_wire_end_devices-rescue)(type Legacy)(uri D:/kicad/thomas_thermostat/fireplace__lcd__temp_sensor__esd_protection/esd_protection_1_wire_end_devices_v2/esd_protection_1_wire_end_devices-rescue.lib)(options "")(descr ""))
+  (lib (name fireplace__lcd__temp_sensor__esd_protection-rescue)(type Legacy)(uri ${KIPRJMOD}/fireplace__lcd__temp_sensor__esd_protection-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,379 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +5V-power-esd_protection_1_wire_rpi-rescue-esd_protection_1_wire_rpi-rescue
+#
+DEF +5V-power-esd_protection_1_wire_rpi-rescue-esd_protection_1_wire_rpi-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-power-esd_protection_1_wire_rpi-rescue-esd_protection_1_wire_rpi-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 1x2_pins_header_rl-connectors_rl
+#
+DEF 1x2_pins_header_rl-connectors_rl P 0 40 Y N 1 F N
+F0 "P" 0 100 50 H V C CNN
+F1 "1x2_pins_header_rl-connectors_rl" 50 -200 50 H V C CNN
+F2 "" 50 0 50 H I C CNN
+F3 "" 50 0 50 H I C CNN
+DRAW
+C -50 -10 10 0 1 18 N
+C 50 -10 10 0 1 18 N
+P 2 0 1 10 -100 -50 -100 30 N
+P 2 0 1 10 -100 -50 100 -50 N
+P 2 0 1 6 -50 -50 -50 -10 N
+P 2 0 1 6 50 -50 50 -10 N
+P 3 0 1 10 100 -50 100 30 -100 30 N
+X 1 1 -50 -150 100 U 50 50 1 1 P
+X 2 2 50 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1x2_screw_term_block-connectors_rl
+#
+DEF 1x2_screw_term_block-connectors_rl J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "1x2_screw_term_block-connectors_rl" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -50 25 1 1 6 N
+C 0 50 25 1 1 6 N
+S -50 100 50 -100 1 1 10 f
+P 2 1 1 6 -21 -37 13 -70 N
+P 2 1 1 6 -21 63 13 30 N
+P 2 1 1 6 -14 -30 20 -63 N
+P 2 1 1 6 -14 70 20 37 N
+X 1 1 -200 50 150 R 50 50 1 1 P
+X 2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1x3_pins_header_rl-connectors_rl
+#
+DEF 1x3_pins_header_rl-connectors_rl P 0 40 Y Y 1 F N
+F0 "P" -100 100 50 H V C CNN
+F1 "1x3_pins_header_rl-connectors_rl" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 -10 10 1 1 18 N
+C 0 -10 10 1 1 18 N
+C 100 -10 10 1 1 18 N
+P 2 1 1 10 -150 -50 -150 30 N
+P 2 1 1 10 -150 -50 50 -50 N
+P 2 1 1 6 -100 -50 -100 -10 N
+P 2 1 1 6 0 -50 0 -10 N
+P 2 1 1 6 100 -50 100 -10 N
+P 4 1 1 10 -50 -50 150 -50 150 30 -150 30 N
+X 1 1 -100 -150 100 U 50 50 1 1 P
+X 2 2 0 -150 100 U 50 50 1 1 P
+X 3 3 100 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DS9503_rl-diodes_rl
+#
+DEF DS9503_rl-diodes_rl D 0 40 Y N 1 F N
+F0 "D" -80 210 50 H V C CNN
+F1 "DS9503_rl-diodes_rl" 90 -250 50 H V C CNN
+F2 "" 50 50 50 H I C CNN
+F3 "" 50 50 50 H I C CNN
+DRAW
+C 50 -120 10 0 1 0 F
+C 50 100 10 0 1 0 F
+S 300 170 -100 170 0 1 0 N
+P 2 0 1 0 -110 100 -80 100 N
+P 2 0 1 0 -100 -190 -100 170 N
+P 2 0 1 0 0 60 100 60 N
+P 2 0 1 0 50 100 -90 100 N
+P 2 0 1 0 50 100 50 60 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 0 80 -120 90 -120 N
+P 2 0 1 0 90 100 30 100 N
+P 2 0 1 0 100 50 110 40 N
+P 2 0 1 0 210 -120 250 -120 N
+P 2 0 1 0 210 100 250 100 N
+P 2 0 1 0 250 100 300 100 N
+P 2 0 1 0 300 -190 -100 -190 N
+P 2 0 1 0 300 -190 300 170 N
+P 3 0 1 0 100 60 105 60 115 50 N
+P 3 0 1 0 250 -120 250 0 300 0 N
+P 4 0 1 0 50 -20 50 -120 60 -120 80 -120 N
+P 5 0 1 0 50 -120 20 -120 -50 -120 -50 0 -100 0 N
+P 2 1 1 0 50 -50 50 50 N
+P 2 1 1 0 100 50 0 50 N
+P 4 1 1 0 100 -50 0 -50 50 50 100 -50 N
+P 5 1 1 0 90 -120 105 -80 120 -120 135 -160 150 -120 N
+P 5 1 1 0 90 100 105 140 120 100 135 60 150 100 N
+P 5 1 1 0 150 -120 165 -80 180 -120 195 -160 210 -120 N
+P 5 1 1 0 150 100 165 140 180 100 195 60 210 100 N
+X ~ 3 -200 -100 100 R 50 50 0 0 N N
+X ~ 4 400 -100 100 L 50 50 0 0 N N
+X A 5 400 0 100 L 50 50 0 0 P
+X K 6 400 100 100 L 50 50 0 0 P
+X K 1 -200 100 100 R 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DS9503_rl-diodes_rl-esd_protection_1_wire_end_devices-rescue
+#
+DEF DS9503_rl-diodes_rl-esd_protection_1_wire_end_devices-rescue D 0 40 Y N 1 F N
+F0 "D" -80 210 50 H V C CNN
+F1 "DS9503_rl-diodes_rl-esd_protection_1_wire_end_devices-rescue" 90 -250 50 H V C CNN
+F2 "" 50 50 50 H I C CNN
+F3 "" 50 50 50 H I C CNN
+DRAW
+C 50 -120 10 0 1 0 F
+C 50 100 10 0 1 0 F
+S 300 170 -100 170 0 1 0 N
+P 2 0 1 0 -110 100 -80 100 N
+P 2 0 1 0 -100 -190 -100 170 N
+P 2 0 1 0 0 60 100 60 N
+P 2 0 1 0 50 100 -90 100 N
+P 2 0 1 0 50 100 50 60 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 0 80 -120 90 -120 N
+P 2 0 1 0 90 100 30 100 N
+P 2 0 1 0 100 50 110 40 N
+P 2 0 1 0 210 -120 250 -120 N
+P 2 0 1 0 210 100 250 100 N
+P 2 0 1 0 250 100 300 100 N
+P 2 0 1 0 300 -190 -100 -190 N
+P 2 0 1 0 300 -190 300 170 N
+P 3 0 1 0 100 60 105 60 115 50 N
+P 3 0 1 0 250 -120 250 0 300 0 N
+P 4 0 1 0 50 -20 50 -120 60 -120 80 -120 N
+P 5 0 1 0 50 -120 20 -120 -50 -120 -50 0 -100 0 N
+P 2 1 1 0 50 -50 50 50 N
+P 2 1 1 0 100 50 0 50 N
+P 4 1 1 0 100 -50 0 -50 50 50 100 -50 N
+P 5 1 1 0 90 -120 105 -80 120 -120 135 -160 150 -120 N
+P 5 1 1 0 90 100 105 140 120 100 135 60 150 100 N
+P 5 1 1 0 150 -120 165 -80 180 -120 195 -160 210 -120 N
+P 5 1 1 0 150 100 165 140 180 100 195 60 210 100 N
+X ~ 3 -200 -100 100 R 50 50 0 0 N N
+X ~ 4 400 -100 100 L 50 50 0 0 N N
+X A 5 400 0 100 L 50 50 0 0 P
+X K 6 400 100 100 L 50 50 0 0 P
+X K 1 -200 100 100 R 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DS9503_us_rl-diodes_rl
+#
+DEF DS9503_us_rl-diodes_rl D 0 40 Y N 1 F N
+F0 "D" -80 210 50 H V C CNN
+F1 "DS9503_us_rl-diodes_rl" 90 -250 50 H V C CNN
+F2 "" 50 50 50 H I C CNN
+F3 "" 50 50 50 H I C CNN
+DRAW
+C 50 -120 10 0 1 0 F
+C 50 100 10 0 1 0 F
+S 300 170 -100 170 0 1 0 N
+P 2 0 1 0 -110 100 -80 100 N
+P 2 0 1 0 -100 -190 -100 170 N
+P 2 0 1 0 0 60 100 60 N
+P 2 0 1 0 50 100 -90 100 N
+P 2 0 1 0 50 100 50 60 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 8 50 100 50 100 N
+P 2 0 1 0 80 -120 90 -120 N
+P 2 0 1 0 90 100 30 100 N
+P 2 0 1 0 100 50 110 40 N
+P 2 0 1 0 210 -120 250 -120 N
+P 2 0 1 0 210 100 250 100 N
+P 2 0 1 0 250 100 300 100 N
+P 2 0 1 0 300 -190 -100 -190 N
+P 2 0 1 0 300 -190 300 170 N
+P 3 0 1 0 100 60 105 60 115 50 N
+P 3 0 1 0 250 -120 250 0 300 0 N
+P 4 0 1 0 50 -20 50 -120 60 -120 80 -120 N
+P 5 0 1 0 50 -120 20 -120 -50 -120 -50 0 -100 0 N
+P 2 1 1 0 50 -50 50 50 N
+P 2 1 1 0 100 50 0 50 N
+P 4 1 1 0 100 -50 0 -50 50 50 100 -50 N
+P 5 1 1 0 90 -120 105 -80 120 -120 135 -160 150 -120 N
+P 5 1 1 0 90 100 105 140 120 100 135 60 150 100 N
+P 5 1 1 0 150 -120 165 -80 180 -120 195 -160 210 -120 N
+P 5 1 1 0 150 100 165 140 180 100 195 60 210 100 N
+X ~ 3 -200 -100 100 R 50 50 0 0 N N
+X ~ 4 400 -100 100 L 50 50 0 0 N N
+X A 5 400 0 100 L 50 50 0 0 P
+X K 6 400 100 100 L 50 50 0 0 P
+X K 1 -200 100 100 R 50 50 1 1 P
+X A 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-power-esd_protection_1_wire_rpi-rescue-esd_protection_1_wire_rpi-rescue
+#
+DEF GND-power-esd_protection_1_wire_rpi-rescue-esd_protection_1_wire_rpi-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-esd_protection_1_wire_rpi-rescue-esd_protection_1_wire_rpi-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# TPS26600-power_management_rl-esd_protection_1_wire_rpi-rescue
+#
+DEF TPS26600-power_management_rl-esd_protection_1_wire_rpi-rescue U 0 40 Y Y 1 F N
+F0 "U" -300 300 50 H V C CNN
+F1 "TPS26600-power_management_rl-esd_protection_1_wire_rpi-rescue" 0 -600 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 250 350 -550 1 1 0 f
+X IN 1 -450 200 100 R 50 50 1 1 W
+X IMON 10 450 -400 100 L 50 50 1 1 O
+X ILIM 11 450 -300 100 L 50 50 1 1 B
+X dVdT 12 450 -200 100 L 50 50 1 1 B
+X NC 13 450 -100 100 L 50 50 1 1 N X
+X FLT 14 450 0 100 L 50 50 1 1 O I
+X OUT 15 450 100 100 L 50 50 1 1 w
+X OUT 16 450 200 100 L 50 50 1 1 w
+X IN 2 -450 100 100 R 50 50 1 1 W
+X UVLO 3 -450 0 100 R 50 50 1 1 I
+X NC 4 -450 -100 100 R 50 50 1 1 N X
+X OVP 5 -450 -200 100 R 50 50 1 1 I
+X MODE 6 -450 -300 100 R 50 50 1 1 I
+X SHDN 7 -450 -400 100 R 50 50 1 1 I I
+X PowerPad 8 50 -600 100 L 50 50 1 1 U NX
+X RTN 8 -450 -500 100 R 50 50 1 1 w
+X GND 9 450 -500 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# capacitor_rl-passive_components_rl
+#
+DEF capacitor_rl-passive_components_rl C 0 40 N N 1 F N
+F0 "C" 0 150 50 H V C CNN
+F1 "capacitor_rl-passive_components_rl" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 1 1 10 -30 -80 -30 80 N
+P 2 1 1 10 30 -80 30 80 N
+X ~ 1 -150 0 114 R 50 50 1 1 P
+X ~ 2 150 0 114 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_rl-passive_components_rl
+#
+DEF resistor_rl-passive_components_rl R 0 20 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "resistor_rl-passive_components_rl" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 90 0 100 0 N
+P 5 1 1 0 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 1 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 1 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_variable_rl-passive_components_rl
+#
+DEF resistor_variable_rl-passive_components_rl R 0 40 Y Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "resistor_variable_rl-passive_components_rl" 50 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -80 110 -80 70 N
+P 2 0 1 0 -80 110 -40 90 N
+P 2 0 1 0 50 -100 -80 110 N
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 90 0 100 0 N
+P 5 1 1 6 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 1 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 1 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 -100 100 L 50 50 1 1 P
+X ~ 3 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# resistor_variable_us_rl-passive_components_rl
+#
+DEF resistor_variable_us_rl-passive_components_rl R 0 40 Y N 1 F N
+F0 "R" -20 135 50 H V C CNN
+F1 "resistor_variable_us_rl-passive_components_rl" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 -90 0 -100 0 N
+P 2 1 1 0 90 0 100 0 N
+P 5 1 1 6 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 1 1 6 -60 90 -100 100 -90 60 -100 100 100 -100 N
+P 5 1 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 1 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 -100 50 L 50 50 1 1 P
+X ~ 3 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# undir_transil-diodes_rl
+#
+DEF undir_transil-diodes_rl D 0 40 N N 1 F N
+F0 "D" -50 150 50 H V C CNN
+F1 "undir_transil-diodes_rl" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 8 -50 50 -65 35 N
+P 2 0 1 8 50 50 65 65 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 8 50 50 -50 50 N
+P 4 1 1 8 50 -50 -50 -50 0 50 50 -50 N
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# undir_transil-diodes_rl-esd_protection_1_wire_end_devices-rescue
+#
+DEF undir_transil-diodes_rl-esd_protection_1_wire_end_devices-rescue D 0 40 N N 1 F N
+F0 "D" -50 150 50 H V C CNN
+F1 "undir_transil-diodes_rl-esd_protection_1_wire_end_devices-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 8 -50 50 -65 35 N
+P 2 0 1 8 50 50 65 65 N
+P 2 1 1 0 0 -50 0 50 N
+P 2 1 1 8 50 50 -50 50 N
+P 4 1 1 8 50 -50 -50 -50 0 50 50 -50 N
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
