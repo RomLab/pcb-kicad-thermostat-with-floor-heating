@@ -1,4 +1,4 @@
-18741143689417446
+18744404343509498
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82165,6 +82165,13 @@ crystal
 0
 2
 2
+dc_barrel_jack_rl
+PC-GK2.1
+DC barrel jack, 2,1 mm
+dc barrel jack 2,1mm
+0
+3
+3
 diode_smd_rl
 do_214ac
 Package DO-214AC
@@ -82536,3 +82543,10 @@ trimer_t93yb
 0
 3
 3
+via_pad_rl
+via_pad_0,4x0,8
+Via pad 0,4 drill 0,8 diameter
+via pad 0,4 0,8
+0
+1
+1
